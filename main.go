@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	var e, fac, i, j, a float64
-	e = 0
+	e = 1
 	fmt.Scan(&a)
-	for i = 0; i < a; i++ {
+	for i = 1; i <= a; i++ {
 		fac = 1
-		for j = 1; j < i; j++ {
+		for j = 1; j <= i; j++ {
 			fac = fac * j
 		}
 		//.Println(fac);
